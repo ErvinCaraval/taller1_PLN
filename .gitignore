@@ -1,0 +1,34 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Archivos del sistema
+
+Thumbs.db
+
+# Modelos grandes (se generan durante ejecución)
+*.h5
+*.keras
+
+# Logs (en outputs)
+outputs/logs/
+
+# Archivos de log
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
